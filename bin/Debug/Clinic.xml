@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Clinic
+</name>
+</assembly>
+<members>
+<member name="T:Clinic.ds_insurance.Select_insuranceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_insurance.Select_insuranceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_insurance.Select_insuranceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_insurance">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_insuranceTableAdapters.Select_insuranceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_insuranceTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_insurance,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_insuranceTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_insurance,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_insuranceTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_insurance,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_insuranceTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_insuranceTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_insurance)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_insuranceTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_insuranceTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_insuranceTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:Clinic.ShamsiDate.MiladiToShamsiFull(System.DateTime)">
+	<summary>
+ در این تابع اگه ماه یا روز بصورت تک رقمی بود صفر را در سمت چپ اش لحاظ می کند و بصورت کامل بر می گرداند.
+ </summary>
+	<param name="d"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Clinic.ds_Period.Select_Period_200DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Period.Select_Period_ByDateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Period.Select_Period_200Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Period.Select_Period_ByDateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Period.Select_Period_200RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Period.Select_Period_ByDateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Period">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_PeriodTableAdapters.Select_Period_200TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PeriodTableAdapters.Select_Period_ByDateTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_PeriodTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_Period,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PeriodTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_Period,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PeriodTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_Period,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_PeriodTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_PeriodTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_Period)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_PeriodTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_PeriodTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_PeriodTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryWithIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryWithIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Surgery.Select_SurgeryWithIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Surgery">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_SurgeryTableAdapters.Select_SurgeryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_SurgeryTableAdapters.Select_SurgeryWithIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_Surgery,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_Surgery,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_Surgery,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_Surgery)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_SurgeryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_SurgeryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.animated_warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.avatar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.btnClose">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.fullscreen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.maximize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.open">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.question">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.setting">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.show">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Clinic.My.Resources.Resources.webcam">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Clinic.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Clinic.ds_ManualFile.Select_ManualFileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_ManualFile.Select_ManualFileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_ManualFile.Select_ManualFileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_ManualFile">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_ManualFileTableAdapters.Select_ManualFileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_ManualFile,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_ManualFile,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_ManualFile,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_ManualFile)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_ManualFileTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_ManualFileTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_Priority">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_PriorityTableAdapters.Query">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_Group_SickDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_GroupSick_for_doctorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_Group_SickRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_GroupSick_for_doctorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_Group_SickRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_GroupSick.Select_GroupSick_for_doctorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_GroupSick">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_GroupSickTableAdapters.Select_Group_SickTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_GroupSickTableAdapters.Select_GroupSick_for_doctorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_GroupSick,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_GroupSick,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_GroupSick,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_GroupSick)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_GroupSickTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_GroupSickTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescriptionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_allDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_FileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescriptionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_allRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_FileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescriptionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_allRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_prescription.Select_prescription_FileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_prescription">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.Select_prescriptionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.Select_prescription_allTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.Select_prescription_FileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_prescription,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_prescription,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_prescription,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_prescription)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_prescriptionTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_receptionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_checkPreviouslyReceptionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_getMoneyStatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_receptionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_checkPreviouslyReceptionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_getMoneyStatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_receptionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_checkPreviouslyReceptionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_reception.Select_getMoneyStatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_reception">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.Select_receptionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.Select_checkPreviouslyReceptionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.Select_getMoneyStatusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_receptionTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_reception,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_receptionTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_reception,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_receptionTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_reception,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_receptionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_receptionTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_reception)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_receptionTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_SearchFile">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:Clinic.frm_Search_File_Advance._CodeFile">
+	<summary>
+ این فرم دو عملکرد دارد
+ 1: وقتی که بصورت مستقل باز شده که کارکرد جستجو و تغییر مشخصات بیماران را دارد
+ 2: وقتی از فرم دیگر صدا زده می شود که در آن صورت پس از دابل-کلیک روی رکورد مورد نظر
+ و یا کلیک برای دگمه پایین صفحه بسته شده و شماره پرونده از طریق پروپرتی کدفایل به فرم اول باز می گردد
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Clinic.frm_Search_File_Advance.CodeFile">
+	<summary>
+ 'وقتی این فرم از فرم دیگری به منظور اخذ شماره پرونده فراخوانی میشود، شماره پرونده در این متغیر برگشت داده می شود
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBankDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBank_PhotoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBankRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBank_PhotoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBankRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank.Select_PhotoBank_PhotoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_PhotoBank">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBankTableAdapters.Select_PhotoBankTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBankTableAdapters.Select_PhotoBank_PhotoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_PhotoBank,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_PhotoBank,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_PhotoBank,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_PhotoBank)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_PhotoBankTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_Expertise.Select_expertiseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Expertise.Select_expertiseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Expertise.Select_expertiseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Expertise">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_ExpertiseTableAdapters.Select_expertiseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_Expertise,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_Expertise,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_Expertise,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_Expertise)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_ExpertiseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_File.Select_fileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_file_withIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_ID_Name_DoctorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_File_CheckFileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_fileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_file_withIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_ID_Name_DoctorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_File_CheckFileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_File.Select_fileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_File.Select_file_withIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_File.Select_ID_Name_DoctorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_File.Select_File_CheckFileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_File">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.Select_fileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.Select_file_withIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.Select_ID_Name_DoctorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.Select_File_CheckFileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.Query">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_FileTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_File,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_FileTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_File,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_FileTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_File,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_FileTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_FileTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_File)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_FileTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_users.Select_usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_users.Select_checkAnyUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_users.Select_usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_users.Select_checkAnyUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_users.Select_usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_users.Select_checkAnyUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_users">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_usersTableAdapters.Select_usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_usersTableAdapters.Select_checkAnyUserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_usersTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_users,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_usersTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_users,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_usersTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_users,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_usersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_usersTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_users)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_usersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_usersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_usersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_Login.Select_InfoUserAfterLoginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Login.Select_InfoUserAfterLoginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Login.Select_InfoUserAfterLoginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Login">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_LoginTableAdapters.Select_InfoUserAfterLoginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_LoginTableAdapters.Query">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_LoginTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_Login,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_LoginTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_Login,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_LoginTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_Login,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_LoginTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_LoginTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_Login)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_LoginTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_LoginTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_LoginTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleForFileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordForFileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleForFileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordForFileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordTitleForFileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle.Select_RecordForFileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_RecordTitle">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.Select_RecordTitleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.Select_RecordTitleForFileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.Select_RecordForFileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_RecordTitle,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_RecordTitle,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_RecordTitle,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_RecordTitle)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_RecordTitleTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:Clinic.CodeFile.NextCodeFile">
+	<summary>
+ تولید کد همیشه ثابت براساس شماره پرونده بیمار
+ بدست آوردن شماره پرونده بعدی بیمار که ثبت نشده است
+ </summary>
+</member><member name="M:Clinic.CodeFile.CurrentCodeFile(System.Int64)">
+	<summary>
+ برای حالتی که آیدی بیمار را داریم ولی شماره پرونده میخواهیم
+ </summary>
+	<param name="ID_File"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Clinic.ds_Personal.PersonalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Personal_withIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_DoctorsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_doctor_for_GroupSickDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.PersonalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Personal_withIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_DoctorsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_doctor_for_GroupSickRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Clinic.ds_Personal.PersonalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Personal.Personal_withIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_DoctorsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Personal.Select_doctor_for_GroupSickRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Clinic.ds_Personal">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.PersonalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.Personal_withIDTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.Select_DoctorsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.Select_doctor_for_GroupSickTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.Query">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Clinic.ds_PersonalTableAdapters.TableAdapterManager.UpdateUpdatedRows(Clinic.ds_Personal,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PersonalTableAdapters.TableAdapterManager.UpdateInsertedRows(Clinic.ds_Personal,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Clinic.ds_PersonalTableAdapters.TableAdapterManager.UpdateDeletedRows(Clinic.ds_Personal,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Clinic.ds_PersonalTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Clinic.ds_PersonalTableAdapters.TableAdapterManager.UpdateAll(Clinic.ds_Personal)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Clinic.ds_PersonalTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

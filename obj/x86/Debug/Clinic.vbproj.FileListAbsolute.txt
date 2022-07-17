@@ -1,0 +1,191 @@
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\bin\Debug\Clinic.exe
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\bin\Debug\Clinic.pdb
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\bin\Debug\Clinic.xml
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.Resources.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.exe
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.xml
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.pdb
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_doctor.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\bin\Debug\Clinic.exe.config
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_personal.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Show_doctors.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_user.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Expertise.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Personal.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_careers.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_personal.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_insurance.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_insurance.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_GroupSick.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_groupSick.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_file.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_recordTitle.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Login.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_List_Files.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Edit_File.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_SurgeyForFiles.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_SearchFile.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_surgery.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_PhotoBank.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_period.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_passing_file.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_BackupDB.resources
+G:\Developing\Clinic\Clinic\bin\Debug\Clinic.exe.config
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.exe
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.xml
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.pdb
+G:\Developing\Clinic\Clinic\bin\Debug\Clinic.exe
+G:\Developing\Clinic\Clinic\bin\Debug\Clinic.pdb
+G:\Developing\Clinic\Clinic\bin\Debug\Clinic.xml
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.vbprojResolveAssemblyReference.cache
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_BackupDB.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_period.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_recordTitle.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_SurgeyForFiles.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Edit_File.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_groupSick.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_careers.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_doctor.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_GroupSick.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_insurance.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_file.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_user.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Expertise.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_insurance.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_personal.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Personal.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_surgery.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_List_Files.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Login.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_PhotoBank.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_passing_file.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_SearchFile.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Show_doctors.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_personal.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.Resources.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.vbproj.GenerateResource.Cache
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.Form2.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_management.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_main.resources
+G:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_withDate.resources
+G:\Developing\Source\Clinic\Clinic\bin\Debug\Clinic.exe.config
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.exe
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.xml
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.pdb
+G:\Developing\Source\Clinic\Clinic\bin\Debug\Clinic.exe
+G:\Developing\Source\Clinic\Clinic\bin\Debug\Clinic.pdb
+G:\Developing\Source\Clinic\Clinic\bin\Debug\Clinic.xml
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.vbprojResolveAssemblyReference.cache
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_BackupDB.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_management.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_period.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_recordTitle.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_SurgeyForFiles.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Edit_File.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_groupSick.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_careers.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_doctor.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_GroupSick.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_insurance.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_file.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_user.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Expertise.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_insurance.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_personal.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Personal.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_surgery.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Login.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_PhotoBank.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Show_doctors.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_personal.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_main.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.Resources.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.vbproj.GenerateResource.Cache
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_today.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Todday.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Tomorrow.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_All.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_reception.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_priority.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_Priority.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_reception.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_reception.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription_doctor.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_prescription.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_prescription.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription_doctor.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_priority.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_reception.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_prescription.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_Priority.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_reception.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_management.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_All.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Todday.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Tomorrow.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_today.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_prescription.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_reception.resources
+C:\Documents and Settings\ASN\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_main.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_QuickTask.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_search_Files_byCodeFile.resources
+G:\Developing\Source\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Search_File_Advance.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\bin\Debug\Clinic.exe.config
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.exe
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.xml
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.pdb
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\bin\Debug\Clinic.exe
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\bin\Debug\Clinic.pdb
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\bin\Debug\Clinic.xml
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_BackupDB.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_prescription_doctor.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_priority.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_reception.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_prescription.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_Priority.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_reception.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_QuickTask.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_management.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_period.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_recordTitle.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_SurgeyForFiles.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Edit_File.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_groupSick.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_careers.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_doctor.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_GroupSick.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_insurance.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_file.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_user.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Expertise.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_edit_insurance.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_personal.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_Personal.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_information_surgery.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_search_Files_byCodeFile.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Login.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_define_PhotoBank.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Search_File_Advance.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_Show_doctors.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_All.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Todday.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_Tomorrow.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_period_today.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_personal.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_prescription.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_show_reception.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.frm_main.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\Clinic.Resources.resources
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Eghbaldar\Desktop\Clinic\Clinic\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Developing\Clinic\Clinic\bin\Debug\Clinic.exe.config
+E:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.exe
+E:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.xml
+E:\Developing\Clinic\Clinic\obj\x86\Debug\Clinic.pdb

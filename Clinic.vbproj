@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D87678B-713D-4FF4-B336-926164DD7625}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Clinic.My.MyApplication</StartupObject>
+    <RootNamespace>Clinic</RootNamespace>
+    <AssemblyName>Clinic</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>http://localhost/Clinic/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Clinic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Clinic.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=2.8.5.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Instrumentation, Version=12.1.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL" />
+    <Reference Include="farsicalendar, Version=1.0.2016.22010, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\farsicalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL" />
+    <Reference Include="HM_FarsiCalendar, Version=1.0.2016.22010, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PersianDate, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PersianDateLibrary, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TextualControl">
+      <HintPath>..\..\TextualControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\BLL\cl_Login.vb" />
+    <Compile Include="Class\BLL\cl_files.vb" />
+    <Compile Include="Class\BLL\cl_GroupSick.vb" />
+    <Compile Include="Class\BLL\cl_insurance.vb" />
+    <Compile Include="Class\BLL\cl_ManualFile.vb" />
+    <Compile Include="Class\BLL\cl_period.vb" />
+    <Compile Include="Class\BLL\cl_personal.vb" />
+    <Compile Include="Class\BLL\cl_expertise.vb" />
+    <Compile Include="Class\BLL\cl_PhotoBank.vb" />
+    <Compile Include="Class\BLL\cl_prescription.vb" />
+    <Compile Include="Class\BLL\cl_priority.vb" />
+    <Compile Include="Class\BLL\cl_reception.vb" />
+    <Compile Include="Class\BLL\cl_RecordTitle.vb" />
+    <Compile Include="Class\BLL\cl_SearchFile.vb" />
+    <Compile Include="Class\BLL\cl_Surgery.vb" />
+    <Compile Include="Class\BLL\cl_users.vb" />
+    <Compile Include="Class\DLL\ds_Expertise.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Expertise.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Expertise.vb">
+      <DependentUpon>ds_Expertise.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_File.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_File.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_GroupSick.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_GroupSick.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_insurance.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_insurance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Login.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Login.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_ManualFile.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_ManualFile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_ManualFile.vb">
+      <DependentUpon>ds_ManualFile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Period.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Period.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Period.vb">
+      <DependentUpon>ds_Period.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Personal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Personal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_PhotoBank.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_PhotoBank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_prescription.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_prescription.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Priority.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Priority.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Priority.vb">
+      <DependentUpon>ds_Priority.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_reception.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_reception.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_RecordTitle.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_RecordTitle.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_SearchFile.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_SearchFile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_Surgery.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Surgery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\DLL\ds_users.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_users.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Others\CreateDatabaseInfo.vb" />
+    <Compile Include="Class\Others\ExecuteSP.vb" />
+    <Compile Include="Class\Others\CodeFile.vb" />
+    <Compile Include="Class\Others\Keep_ID_USER.vb" />
+    <Compile Include="Class\Others\ShamsiDate.vb" />
+    <Compile Include="Forms\Date_Forms\frm_BackupDB.Designer.vb">
+      <DependentUpon>frm_BackupDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_BackupDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_prescription.Designer.vb">
+      <DependentUpon>frm_define_prescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_prescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_prescription_doctor.Designer.vb">
+      <DependentUpon>frm_define_prescription_doctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_prescription_doctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_priority.Designer.vb">
+      <DependentUpon>frm_define_priority.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_priority.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_reception.Designer.vb">
+      <DependentUpon>frm_define_reception.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_reception.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_prescription.Designer.vb">
+      <DependentUpon>frm_edit_prescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_prescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_Priority.Designer.vb">
+      <DependentUpon>frm_edit_Priority.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_Priority.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_reception.Designer.vb">
+      <DependentUpon>frm_information_reception.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_reception.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_QuickTask.Designer.vb">
+      <DependentUpon>frm_show_period_QuickTask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_QuickTask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_management.Designer.vb">
+      <DependentUpon>frm_management.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_management.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_period.Designer.vb">
+      <DependentUpon>frm_define_period.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_period.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_recordTitle.Designer.vb">
+      <DependentUpon>frm_define_recordTitle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_recordTitle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_SurgeyForFiles.Designer.vb">
+      <DependentUpon>frm_define_SurgeyForFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_SurgeyForFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_File.Designer.vb">
+      <DependentUpon>frm_edit_File.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_File.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_groupSick.Designer.vb">
+      <DependentUpon>frm_edit_groupSick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_groupSick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_careers.Designer.vb">
+      <DependentUpon>frm_define_careers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_careers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_doctor.Designer.vb">
+      <DependentUpon>frm_define_doctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_doctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_GroupSick.Designer.vb">
+      <DependentUpon>frm_define_GroupSick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_GroupSick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_insurance.Designer.vb">
+      <DependentUpon>frm_define_insurance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_insurance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_file.Designer.vb">
+      <DependentUpon>frm_define_file.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_file.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_define_user.Designer.vb">
+      <DependentUpon>frm_define_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_define_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_Expertise.Designer.vb">
+      <DependentUpon>frm_define_Expertise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_Expertise.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_insurance.Designer.vb">
+      <DependentUpon>frm_edit_insurance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_edit_insurance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_personal.Designer.vb">
+      <DependentUpon>frm_information_personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_Personal.Designer.vb">
+      <DependentUpon>frm_define_Personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_Personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_surgery.Designer.vb">
+      <DependentUpon>frm_information_surgery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_information_surgery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_search_Files_byCodeFile.Designer.vb">
+      <DependentUpon>frm_search_Files_byCodeFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_search_Files_byCodeFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_Login.Designer.vb">
+      <DependentUpon>frm_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Forms\frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_PhotoBank.Designer.vb">
+      <DependentUpon>frm_define_PhotoBank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_define_PhotoBank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_Search_File_Advance.Designer.vb">
+      <DependentUpon>frm_Search_File_Advance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_Search_File_Advance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_Show_doctors.Designer.vb">
+      <DependentUpon>frm_Show_doctors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_Show_doctors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_All.Designer.vb">
+      <DependentUpon>frm_show_period_All.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_All.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_Todday.Designer.vb">
+      <DependentUpon>frm_show_period_Todday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_Todday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_Tomorrow.Designer.vb">
+      <DependentUpon>frm_show_period_Tomorrow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_Tomorrow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_withDate.Designer.vb">
+      <DependentUpon>frm_show_period_withDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_period_withDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_personal.Designer.vb">
+      <DependentUpon>frm_show_personal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_personal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_prescription.Designer.vb">
+      <DependentUpon>frm_show_prescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_prescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_reception.Designer.vb">
+      <DependentUpon>frm_show_reception.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Date_Forms\frm_show_reception.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.vb">
+      <DependentUpon>frm_Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_BackupDB.resx">
+      <DependentUpon>frm_BackupDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_prescription.resx">
+      <DependentUpon>frm_define_prescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_prescription_doctor.resx">
+      <DependentUpon>frm_define_prescription_doctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_priority.resx">
+      <DependentUpon>frm_define_priority.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_reception.resx">
+      <DependentUpon>frm_define_reception.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_edit_prescription.resx">
+      <DependentUpon>frm_edit_prescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_edit_Priority.resx">
+      <DependentUpon>frm_edit_Priority.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_information_reception.resx">
+      <DependentUpon>frm_information_reception.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_period_QuickTask.resx">
+      <DependentUpon>frm_show_period_QuickTask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Forms\frm_management.resx">
+      <DependentUpon>frm_management.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_period.resx">
+      <DependentUpon>frm_define_period.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_recordTitle.resx">
+      <DependentUpon>frm_define_recordTitle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_SurgeyForFiles.resx">
+      <DependentUpon>frm_define_SurgeyForFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_Edit_File.resx">
+      <DependentUpon>frm_edit_File.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_edit_groupSick.resx">
+      <DependentUpon>frm_edit_groupSick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_careers.resx">
+      <DependentUpon>frm_define_careers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_doctor.resx">
+      <DependentUpon>frm_define_doctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_GroupSick.resx">
+      <DependentUpon>frm_define_GroupSick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_insurance.resx">
+      <DependentUpon>frm_define_insurance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_file.resx">
+      <DependentUpon>frm_define_file.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Forms\frm_define_user.resx">
+      <DependentUpon>frm_define_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_Expertise.resx">
+      <DependentUpon>frm_define_Expertise.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_edit_insurance.resx">
+      <DependentUpon>frm_edit_insurance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_information_personal.resx">
+      <DependentUpon>frm_information_personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_Personal.resx">
+      <DependentUpon>frm_define_Personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_information_surgery.resx">
+      <DependentUpon>frm_information_surgery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_search_Files_byCodeFile.resx">
+      <DependentUpon>frm_search_Files_byCodeFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Forms\frm_Login.resx">
+      <DependentUpon>frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_define_PhotoBank.resx">
+      <DependentUpon>frm_define_PhotoBank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_Search_File_Advance.resx">
+      <DependentUpon>frm_Search_File_Advance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_Show_doctors.resx">
+      <DependentUpon>frm_Show_doctors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_period_All.resx">
+      <DependentUpon>frm_show_period_All.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_period_Todday.resx">
+      <DependentUpon>frm_show_period_Todday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_period_Tomorrow.resx">
+      <DependentUpon>frm_show_period_Tomorrow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_period_withDate.resx">
+      <DependentUpon>frm_show_period_withDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_personal.resx">
+      <DependentUpon>frm_show_personal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_prescription.resx">
+      <DependentUpon>frm_show_prescription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Date_Forms\frm_show_reception.resx">
+      <DependentUpon>frm_show_reception.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Class\DLL\ds_Expertise.xsc">
+      <DependentUpon>ds_Expertise.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Expertise.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Expertise.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Expertise.xss">
+      <DependentUpon>ds_Expertise.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_File.xsc">
+      <DependentUpon>ds_File.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_File.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_File.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_File.xss">
+      <DependentUpon>ds_File.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_GroupSick.xsc">
+      <DependentUpon>ds_GroupSick.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_GroupSick.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_GroupSick.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_GroupSick.xss">
+      <DependentUpon>ds_GroupSick.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_insurance.xsc">
+      <DependentUpon>ds_insurance.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_insurance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_insurance.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_insurance.xss">
+      <DependentUpon>ds_insurance.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Login.xsc">
+      <DependentUpon>ds_Login.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Login.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Login.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Login.xss">
+      <DependentUpon>ds_Login.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_ManualFile.xsc">
+      <DependentUpon>ds_ManualFile.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_ManualFile.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_ManualFile.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_ManualFile.xss">
+      <DependentUpon>ds_ManualFile.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Period.xsc">
+      <DependentUpon>ds_Period.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Period.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Period.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Period.xss">
+      <DependentUpon>ds_Period.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Personal.xsc">
+      <DependentUpon>ds_Personal.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Personal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Personal.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Personal.xss">
+      <DependentUpon>ds_Personal.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_PhotoBank.xsc">
+      <DependentUpon>ds_PhotoBank.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_PhotoBank.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_PhotoBank.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_PhotoBank.xss">
+      <DependentUpon>ds_PhotoBank.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_prescription.xsc">
+      <DependentUpon>ds_prescription.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_prescription.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_prescription.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_prescription.xss">
+      <DependentUpon>ds_prescription.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Priority.xsc">
+      <DependentUpon>ds_Priority.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Priority.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Priority.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Priority.xss">
+      <DependentUpon>ds_Priority.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_reception.xsc">
+      <DependentUpon>ds_reception.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_reception.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_reception.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_reception.xss">
+      <DependentUpon>ds_reception.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_RecordTitle.xsc">
+      <DependentUpon>ds_RecordTitle.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_RecordTitle.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_RecordTitle.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_RecordTitle.xss">
+      <DependentUpon>ds_RecordTitle.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_SearchFile.xsc">
+      <DependentUpon>ds_SearchFile.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_SearchFile.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_SearchFile.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_SearchFile.xss">
+      <DependentUpon>ds_SearchFile.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Surgery.xsc">
+      <DependentUpon>ds_Surgery.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_Surgery.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Surgery.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_Surgery.xss">
+      <DependentUpon>ds_Surgery.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_users.xsc">
+      <DependentUpon>ds_users.xsd</DependentUpon>
+    </None>
+    <None Include="Class\DLL\ds_users.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_users.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Class\DLL\ds_users.xss">
+      <DependentUpon>ds_users.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_important.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnClose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
